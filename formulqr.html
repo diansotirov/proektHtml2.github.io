@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формуляр</title>
+    <style>
+            .body{
+            background-color: lightskyblue;
+            color:white;
+            }
+            .div1{
+            width:100%;
+            margin:10px 0px 10px 0px;
+            text-align: center;
+            background-color: skyblue;
+            border-style: solid;
+            border-color: lightcyan;
+            }
+            .p1{
+                display: inline-block;
+                text-align: center;
+                width:20%;
+                background-color: lightseagreen;
+                margin: 20px;
+            }
+            .p1:hover{
+                transform: scale(1.05);
+            }
+            .p2{
+                width:90%;
+                margin:20px;
+                display:inline-block;
+                text-align: left;
+                vertical-align: top;
+            }
+    </style>
+</head>
+<body class="body">
+    <div class="div1">
+        <p class="p1"><a href="home page.html" style="color:white;">НАЧАЛО</a></p>
+        <p class="p1"><a href="format.html" style="color:white;">ФОРМАТЪТ</a></p>
+        <p class="p1"><a href="domakini.html" style="color:white;">ДОМАКИНИТЕ</a></p>
+        <p class="p1"><a href="otbori.html" style="color:white;">ОТБОРИТЕ</a></p>
+    </div>
+    <h1>ПОБЕДИТЕЛЯТ</h1>
+    <div class="div1" style="height:425px;">
+        <p class="p2">
+            Кой отбор ще спечели най-престижното футболно отличие тази година? Кои отбори ще ни изненадат? Кои нови звезди ще изгреят на футболната сцена? Споделете мнението си и разгледайте статистиката за отговорите на потрбителите.
+        </p>
+        <form style="text-align:left; margin-left:75px;">
+            <label for="winner">
+                Победител:
+            </label>
+            <br><br>
+            <input type="text" name="winner">
+            <br><br>
+            <label for="underdog">
+                Изненада на турнира:
+            </label>
+            <br><br>
+            <input type="text" name="underdog">
+            <br><br>
+            <label for="failure">
+                Представящ се под очакванията:
+            </label>
+            <br><br>
+            <input type="text" name="failure">
+            <br><br>
+            <label for="pott">
+                Играч на турнира:
+            </label>
+            <br><br>
+            <input type="text" name="pott">
+            <br><br>
+            <input type="button" value="submit">
+        </form>
+    </div>
+</body>
+</html>
