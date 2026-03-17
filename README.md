@@ -1,1 +1,89 @@
-# proektHtml2.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Начална страница</title>
+    <style>
+        .body{
+            background-color: lightskyblue;
+            color:white;
+        }
+        .div1{
+            width:100%;
+            margin:10px 0px 10px 0px;
+            text-align: center;
+            vertical-align: top;
+        }
+        .div2{
+            display: inline-block;
+            background-color: skyblue;
+            vertical-align: top;
+            justify-items: center;
+            margin:0px 10px 0px 10px;
+            border-style:solid;
+            border-color: lightcyan;
+            height:100%;
+        }
+        .p1{
+            width:90%;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body class="body">
+    <h1>МОНДИАЛ 2026</h1>
+    <div class="div1" style="height:275px">
+        <div class="div2" style="width:47%">
+            <img src="wc.jpg" width="100%" height="100%">
+        </div>
+        <div class="div2" style="width:47%">
+            <p class="p1" style="text-align: left;">
+                <b>СВЕТОВНОТО</b>
+            </p>
+            <p class="p1" style="text-align: left;">
+                Световното първенство по футбол е най-гледаното спортно събитие на света и се провежда 1 път на 4 години. Следващото му издание е тази година и феновете по света очакват с нетърпение какво ще ни поднесе поредното футболно лято.
+            </p>
+            <div class="div1">
+                <img src="q2022.jpg" width="29%" height="100%">
+                <img src="m2018.jpg" width="34%" height="100%">
+                <img src="b2014.jpg" width="32%" height="100%">
+            </div>
+        </div>
+    </div>
+    <div class="div1" style="height:200px; background-color: lightskyblue;">
+        <div class="div2" style="width:21%">
+            <p class="p1" style="margin-top:50px;">
+                <b><a href="format.html" style="color:white;">ФОРМАТЪТ</a></b>
+            </p>
+            <p class="p1">
+                Каква е новата структура на Световното
+            </p>
+        </div>
+        <div class="div2" style="width:21%">
+            <p class="p1" style="margin-top:50px;">
+                <b><a href="domakini.html" style="color:white;">ДОМАКИНИТЕ</a></b>
+            </p>
+            <p class="p1">
+                Какви условия предлагат домакините на Световното
+            </p>            
+        </div>
+        <div class="div2" style="width:21%;">
+            <p class="p1" style="margin-top:50px;">
+                <b><a href="otbori.html" style="color:white;">ОТБОРИТЕ</a></b>
+            </p>
+            <p class="p1">
+                Как са разположени отборите в груповата фаза на Световното
+            </p>            
+        </div>
+        <div class="div2" style="width:21%">
+            <p class="p1" style="margin-top:50px;">
+                <b><a href="formulqr.html" style="color:white;">ПОБЕДИТЕЛЯТ</a></b>
+            </p>
+            <p class="p1">
+                Кой очаквате да спечели Световното
+            </p>            
+        </div>
+    </div>
+</body>
+</html>
